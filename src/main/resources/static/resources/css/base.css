@@ -1,0 +1,38 @@
+body {
+    background: red url(https://www.toptal.com/designers/subtlepatterns/uploads/cartographer.png);
+    font-family: arial;
+    color: #444;
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #111;
+    border-radius: 1em;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container aside, #container main {
+    padding: 1em;
+}
+
+#container aside {
+    background-color: #191919;
+    border-radius: 1em 0 0 1em;
+    width: 150px;
+}
+
+#container aside .logo {
+    text-align: center;
+}
+

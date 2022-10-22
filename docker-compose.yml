@@ -1,0 +1,11 @@
+version: "2.2"
+
+services:
+  postgres:
+    image: postgres:15.0
+    ports:
+      - "5432:5432"
+    environment: 
+      - POSTGRES_USER=ctrlv
+      - POSTGRES_PASSWORD=ctrlv
+      - POSTGRES_DB=ctrlv
